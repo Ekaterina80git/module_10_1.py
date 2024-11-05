@@ -22,8 +22,8 @@ time_res = time_end - time_start
 print(f'Работа потока {time_res}\n')
 
 time_start = datetime.now()
-trd_1 = Thread(target=write_words, args=(10, 'example5.txt)'))
-trd_2 = Thread(target=write_words, args=(30, 'example6.txt)'))
+trd_1 = Thread(target=write_words, args=(10, 'example5.txt'))
+trd_2 = Thread(target=write_words, args=(30, 'example6.txt'))
 trd_3 = Thread(target=write_words, args=(200, 'example7.txt'))
 trd_4 = Thread(target=write_words, args=(100, 'example8.txt'))
 
